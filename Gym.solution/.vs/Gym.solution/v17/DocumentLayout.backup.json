@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\deleteAllByType.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|solutionrelative:Gym.project\\deleteAllByType.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\displayDataInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|solutionrelative:Gym.project\\displayDataInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\searchByText.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|solutionrelative:Gym.project\\searchByText.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\calculateTimeLeftForSessions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|solutionrelative:Gym.project\\calculateTimeLeftForSessions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\addFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|solutionrelative:Gym.project\\addFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\Gym.project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7ACDCF-64DA-44F5-B2E0-5B4CB90A0ABE}|Gym.project\\Gym.project.vcxproj|solutionrelative:Gym.project\\Gym.project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 432,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "deleteAllByType.cpp",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\deleteAllByType.cpp",
+              "RelativeDocumentMoniker": "Gym.project\\deleteAllByType.cpp",
+              "ToolTip": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\deleteAllByType.cpp",
+              "RelativeToolTip": "Gym.project\\deleteAllByType.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T08:54:24.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "calculateTimeLeftForSessions.cpp",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\calculateTimeLeftForSessions.cpp",
+              "RelativeDocumentMoniker": "Gym.project\\calculateTimeLeftForSessions.cpp",
+              "ToolTip": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\calculateTimeLeftForSessions.cpp",
+              "RelativeToolTip": "Gym.project\\calculateTimeLeftForSessions.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T08:41:24.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "addFunctions.cpp",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\addFunctions.cpp",
+              "RelativeDocumentMoniker": "Gym.project\\addFunctions.cpp",
+              "ToolTip": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\addFunctions.cpp",
+              "RelativeToolTip": "Gym.project\\addFunctions.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T08:33:14.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "displayDataInfo.cpp",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\displayDataInfo.cpp",
+              "RelativeDocumentMoniker": "Gym.project\\displayDataInfo.cpp",
+              "ToolTip": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\displayDataInfo.cpp",
+              "RelativeToolTip": "Gym.project\\displayDataInfo.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-29T09:30:04.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "searchByText.cpp",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\searchByText.cpp",
+              "RelativeDocumentMoniker": "Gym.project\\searchByText.cpp",
+              "ToolTip": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\searchByText.cpp",
+              "RelativeToolTip": "Gym.project\\searchByText.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-29T09:20:56.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gym.project.cpp",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\Gym.project.cpp",
+              "RelativeDocumentMoniker": "Gym.project\\Gym.project.cpp",
+              "ToolTip": "E:\\C\u002B\u002B\\HomeWork\\Sem3\\Gym.solution\\Gym.project\\Gym.project.cpp",
+              "RelativeToolTip": "Gym.project\\Gym.project.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-07T07:54:44.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

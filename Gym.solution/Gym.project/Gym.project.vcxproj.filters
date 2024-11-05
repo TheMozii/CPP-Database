@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\subFiles">
+      <UniqueIdentifier>{60b3a94d-acc1-4c95-801e-1af4cad132c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mainFiles">
+      <UniqueIdentifier>{bbc4ebb6-dae2-4b2d-89e2-c7a7ae7b0f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\textFiles">
+      <UniqueIdentifier>{d9adb9a9-4168-4a56-8201-f30fd37a1653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subFiles\deleteSubFiles">
+      <UniqueIdentifier>{5e1476c4-5ecb-47fc-97ab-f75f6833ab89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subFiles\addSubFiles">
+      <UniqueIdentifier>{d7660d1a-378a-49b9-831b-3caabcb569b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subFiles\searchSubFiles">
+      <UniqueIdentifier>{ab3144f7-2569-46fb-adc2-3016390a0104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subFiles\universalSubFiles">
+      <UniqueIdentifier>{ca70674f-7411-454a-8b81-548fb76f0ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subFiles\sortFiles">
+      <UniqueIdentifier>{29089a56-0b34-4e22-93d0-706153e5178f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subFiles\calculSubFiles">
+      <UniqueIdentifier>{fcf1f5fd-bcb3-4332-9b96-294ce2f34fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subFiles\editSubFiles">
+      <UniqueIdentifier>{8607ed8f-e8b8-4d48-a964-60c437c1e020}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="addData.cpp">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteData.cpp">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="editData.cpp">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Gym.project.cpp">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="searchData.cpp">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="viewData.cpp">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteAllByType.cpp">
+      <Filter>Source Files\subFiles\deleteSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteByID.cpp">
+      <Filter>Source Files\subFiles\deleteSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="addFunctions.cpp">
+      <Filter>Source Files\subFiles\addSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="searchByDateRange.cpp">
+      <Filter>Source Files\subFiles\searchSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="searchByID.cpp">
+      <Filter>Source Files\subFiles\searchSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="searchByText.cpp">
+      <Filter>Source Files\subFiles\searchSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="displayDataInfo.cpp">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="split.cpp">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="yesNoConform.cpp">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteSortedBy.cpp">
+      <Filter>Source Files\subFiles\deleteSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="sortData.cpp">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="toLowerCase.cpp">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="sortFunctions.cpp">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="sortById.cpp">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="writeSortedDataBack.cpp">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="sortByName.cpp">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="sortSessionsByTime.cpp">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="calculData.cpp">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="countAllRecords.cpp">
+      <Filter>Source Files\subFiles\calculSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="countRecordsByFile.cpp">
+      <Filter>Source Files\subFiles\calculSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="countSameNamesAcrossFiles.cpp">
+      <Filter>Source Files\subFiles\calculSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="readAllRecords.cpp">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="calculateTimeLeftForSessions.cpp">
+      <Filter>Source Files\subFiles\calculSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="editFunctions.cpp">
+      <Filter>Source Files\subFiles\editSubFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="validation.cpp">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addData.h">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteData.h">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="editData.h">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="searchData.h">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="viewData.h">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteAllByType.h">
+      <Filter>Source Files\subFiles\deleteSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteByID.h">
+      <Filter>Source Files\subFiles\deleteSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="addFunctions.h">
+      <Filter>Source Files\subFiles\addSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="searchByDateRange.h">
+      <Filter>Source Files\subFiles\searchSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="searchByID.h">
+      <Filter>Source Files\subFiles\searchSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="searchByText.h">
+      <Filter>Source Files\subFiles\searchSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures.h">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="displayDataInfo.h">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="split.h">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="yesNoConform.h">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteSortedBy.h">
+      <Filter>Source Files\subFiles\deleteSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="sortData.h">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="toLowerCase.h">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="sortFunctions.h">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="sortById.h">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="writeSortedDataBack.h">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="sortByName.h">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="sortSessionsByTime.h">
+      <Filter>Source Files\subFiles\sortFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="calculData.h">
+      <Filter>Source Files\mainFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="countAllRecords.h">
+      <Filter>Source Files\subFiles\calculSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="countRecordsByFile.h">
+      <Filter>Source Files\subFiles\calculSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="countSameNamesAcrossFiles.h">
+      <Filter>Source Files\subFiles\calculSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="readAllRecords.h">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="calculateTimeLeftForSessions.h">
+      <Filter>Source Files\subFiles\calculSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="editFunctions.h">
+      <Filter>Source Files\subFiles\editSubFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="validation.h">
+      <Filter>Source Files\subFiles\universalSubFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="clients.txt">
+      <Filter>Source Files\textFiles</Filter>
+    </Text>
+    <Text Include="equipment.txt">
+      <Filter>Source Files\textFiles</Filter>
+    </Text>
+    <Text Include="exerciseMachines.txt">
+      <Filter>Source Files\textFiles</Filter>
+    </Text>
+    <Text Include="instructors.txt">
+      <Filter>Source Files\textFiles</Filter>
+    </Text>
+    <Text Include="sessions.txt">
+      <Filter>Source Files\textFiles</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

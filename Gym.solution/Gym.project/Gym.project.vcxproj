@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ff7acdcf-64da-44f5-b2e0-5b4cb90a0abe}</ProjectGuid>
+    <RootNamespace>Gymproject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="addData.cpp" />
+    <ClCompile Include="addFunctions.cpp" />
+    <ClCompile Include="calculateTimeLeftForSessions.cpp" />
+    <ClCompile Include="calculData.cpp" />
+    <ClCompile Include="countAllRecords.cpp" />
+    <ClCompile Include="countRecordsByFile.cpp" />
+    <ClCompile Include="countSameNamesAcrossFiles.cpp" />
+    <ClCompile Include="deleteAllByType.cpp" />
+    <ClCompile Include="deleteByID.cpp" />
+    <ClCompile Include="deleteData.cpp" />
+    <ClCompile Include="deleteSortedBy.cpp" />
+    <ClCompile Include="displayDataInfo.cpp" />
+    <ClCompile Include="editData.cpp" />
+    <ClCompile Include="editFunctions.cpp" />
+    <ClCompile Include="Gym.project.cpp" />
+    <ClCompile Include="readAllRecords.cpp" />
+    <ClCompile Include="searchByDateRange.cpp" />
+    <ClCompile Include="searchByID.cpp" />
+    <ClCompile Include="searchByText.cpp" />
+    <ClCompile Include="searchData.cpp" />
+    <ClCompile Include="sortById.cpp" />
+    <ClCompile Include="sortByName.cpp" />
+    <ClCompile Include="sortData.cpp" />
+    <ClCompile Include="sortFunctions.cpp" />
+    <ClCompile Include="sortSessionsByTime.cpp" />
+    <ClCompile Include="split.cpp" />
+    <ClCompile Include="toLowerCase.cpp" />
+    <ClCompile Include="validation.cpp" />
+    <ClCompile Include="viewData.cpp" />
+    <ClCompile Include="writeSortedDataBack.cpp" />
+    <ClCompile Include="yesNoConform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addData.h" />
+    <ClInclude Include="addFunctions.h" />
+    <ClInclude Include="calculateTimeLeftForSessions.h" />
+    <ClInclude Include="calculData.h" />
+    <ClInclude Include="countAllRecords.h" />
+    <ClInclude Include="countRecordsByFile.h" />
+    <ClInclude Include="countSameNamesAcrossFiles.h" />
+    <ClInclude Include="DataStructures.h" />
+    <ClInclude Include="deleteAllByType.h" />
+    <ClInclude Include="deleteByID.h" />
+    <ClInclude Include="deleteData.h" />
+    <ClInclude Include="deleteSortedBy.h" />
+    <ClInclude Include="displayDataInfo.h" />
+    <ClInclude Include="editData.h" />
+    <ClInclude Include="editFunctions.h" />
+    <ClInclude Include="readAllRecords.h" />
+    <ClInclude Include="searchByDateRange.h" />
+    <ClInclude Include="searchByID.h" />
+    <ClInclude Include="searchByText.h" />
+    <ClInclude Include="searchData.h" />
+    <ClInclude Include="sortById.h" />
+    <ClInclude Include="sortByName.h" />
+    <ClInclude Include="sortData.h" />
+    <ClInclude Include="sortFunctions.h" />
+    <ClInclude Include="sortSessionsByTime.h" />
+    <ClInclude Include="split.h" />
+    <ClInclude Include="toLowerCase.h" />
+    <ClInclude Include="validation.h" />
+    <ClInclude Include="viewData.h" />
+    <ClInclude Include="writeSortedDataBack.h" />
+    <ClInclude Include="yesNoConform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="clients.txt" />
+    <Text Include="equipment.txt" />
+    <Text Include="exerciseMachines.txt" />
+    <Text Include="instructors.txt" />
+    <Text Include="sessions.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
